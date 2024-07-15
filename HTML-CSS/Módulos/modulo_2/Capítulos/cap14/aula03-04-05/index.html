@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas 
+            cm, mm, in(polegada), px, pt, pc
+
+            Medidas Relativas
+            em(medida relativa ao tamanho atual da fonte), ex(medida relativa a altura x de uma fonte), rem(tipo é tipo em soq relativa ao rut(fonte) que ta configurada no body), vw(viewidht, viewport, porcentagem da viewport),
+            vh(viewheigt), %
+            16px geralmente é igual a 1em
+            */
+            font-size: 16px;
+            /* lighter normal bold bolder */
+
+            /* weight(peso), width(largura), height(altura) */
+
+        }
+        h1 {
+            /* shorthand font
+            
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em Arial, Helvetica, sans-serif;
+        }
+
+        h2 {
+            font: bold 2em Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nobis voluptates cum provident. Facilis praesentium nemo quam deleniti, pariatur doloribus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptates ullam ipsam sequi temporibus eius voluptatum odio quaerat a minima, ea id, deserunt molestiae aliquid, reiciendis iste natus ratione! Incidunt!</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit neque ratione delectus tenetur nemo explicabo, ea vitae! Iste, cumque quia.</p>
+</body>
+</html>
